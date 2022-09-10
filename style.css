@@ -1,0 +1,115 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+}
+
+.main {
+   max-width: 1440px;
+   margin: 0 auto;
+}
+
+header {
+   width: 1440px;
+   height: 962px;
+   background: linear-gradient(0deg, rgba(53, 66, 103, 0.0001) 0%, #151824 95.04%),
+      url(./img/photo.jpeg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   color: rgba(255, 255, 255, 1);
+   margin: 0 auto;
+}
+
+.navbar {
+   max-width: 1000px;
+   display: flex;
+   justify-content: space-between;
+   margin: 0 auto;
+}
+
+.navbar li {
+   margin-top: 60px;
+}
+
+.navbar li img {
+   margin-right: 260px;
+}
+
+.navbar li a {
+   font-family: 'Lato';
+   font-size: 18px;
+   color: rgba(255, 255, 255, 1);
+   font-weight: 400;
+}
+
+.navbar li a:hover {
+   color: aqua;
+}
+
+.header_content {
+   width: 900px;
+   margin-left: 220px;
+}
+
+.discover {
+   margin-top: 176px;
+   font-family: "Lato";
+   font-size: 50px;
+   font-weight: 400;
+   width: 620px;
+}
+
+.jump {
+   margin-top: 22px;
+   width: 540px;
+   height: 75px;
+   font-family: "Lato";
+   font-size: 16px;
+   line-height: 24px;
+   overflow: auto;
+}
+
+.search {
+   margin-top: 60px;
+}
+
+.btn_search {
+   background-color: #1B7DFF;
+   padding: 20px 30px;
+   color: rgba(255, 255, 255, 1);
+   cursor: pointer;
+   border: none;
+   outline: none;
+   box-shadow: none;
+}
+
+input {
+   background-color: #ffffff00;
+   padding: 20px;
+   font-family: 'Lato';
+   font-size: 18px;
+   font-weight: 500;
+   border: none;
+   color: rgb(255, 255, 255);
+   width: 33%;
+   margin-right: 60px;
+}
+
+input::placeholder {
+   color: rgb(255, 255, 255);
+   font-family: 'Lato';
+   font-size: 18px;
+   font-weight: 500;
+   }
+input:focus,
+select:focus,
+textarea:focus
+ {
+   outline: none;
+}
+
+.input_style {
+   border-bottom: 2px inset #ffffff;
+}

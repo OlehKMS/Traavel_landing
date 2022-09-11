@@ -1,0 +1,60 @@
+.main {
+   max-width: 1440px;
+   position: relative;
+}
+
+.benefis {
+   background: rgba(255, 255, 255, 1);
+   box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+   width: 1272px;
+   margin: 0;
+   height: 655px;
+   position: absolute;
+   z-index: 2;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -30%)
+}
+
+.subject {
+   font-family: 'Lato';
+   font-weight: 500;
+   font-size: 35px;
+   color: rgba(16, 39, 70, 1);
+   margin: 90px 0 120px 100px;
+}
+
+.main_block {
+   display: flex;
+   justify-content: center;
+   margin-left: 42px;
+}
+
+.block {
+   width: 30%;
+}
+
+.subtitle {
+   margin: 40px 0 24px 0;
+}
+
+.block_text {
+   font-family: 'Lato';
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   width: 80%;
+   margin-bottom: 40px;
+}
+
+.link {
+   color: rgba(0, 109, 254, 1);
+   font-family: 'Lato';
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.link::after {
+   content: url(./img/Shape.png);
+   margin-left: 26px;
+}

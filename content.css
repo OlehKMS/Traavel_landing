@@ -93,6 +93,7 @@
 }
 .description_trip img{
    max-height: 380px;
+   object-fit: cover;
 }
 
 .trip_subtitle {

@@ -8,6 +8,8 @@
 
 .content_body {
    background-color: #F2F2F2;
+   max-width: 1440px;
+   margin: 0 auto;
 }
 
 .main {
